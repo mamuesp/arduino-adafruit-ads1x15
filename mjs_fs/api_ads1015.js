@@ -12,7 +12,7 @@ let Adafruit_ADS1015 = {
   _sc: ffi('void mgos_ADS1015_startComparator_SingleEnded(void *, int, int )'),
   _glc: ffi('int mgos_ADS1015_getLastConversionResults(void *)'),
   _sg: ffi('void mgos_ADS1015_setGain(void *, int)'),
-  _gg: ffi('int mgos_ADS1015_setGain(void *)'),
+  _gg: ffi('int mgos_ADS1015_getGain(void *)'),
 
   // ## **`Adafruit_ADS1015.create(i2cAddress)`**
   // Create an ADS1015 instance: an object with the methods described below.
