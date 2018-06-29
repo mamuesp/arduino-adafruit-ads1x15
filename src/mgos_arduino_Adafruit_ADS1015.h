@@ -76,6 +76,8 @@ int mgos_ADS1015_getLastConversionResults(Adafruit_ADS1015 *ads);
  */
 void mgos_ADS1015_setGain(Adafruit_ADS1015 *ads, adsGain_t gain);
 
+int mgos_ADS1015_getGain(Adafruit_ADS1015 *ads);
+
 #ifdef __cplusplus
 }
 #endif  /* __cplusplus */
