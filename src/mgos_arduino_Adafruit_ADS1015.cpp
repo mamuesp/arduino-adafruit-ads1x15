@@ -50,3 +50,8 @@ void mgos_ADS1015_setGain(Adafruit_ADS1015 *ads, adsGain_t gain) {
   if (ads == nullptr) return;
   ads->setGain(gain);
 }
+
+int mgos_ADS1015_getGain(Adafruit_ADS1015 *ads) {
+  if (ads == nullptr) return -1;
+  return (int) ads->getGain();
+}
